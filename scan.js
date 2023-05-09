@@ -61,7 +61,7 @@ function setcolors(phone, id, otp){
                                 can_btn.style.display = 'none';
                                 res.innerHTML = '<p>Thank You, Your Reservation has been cancled!!</p>';
                                 setTimeout(function(){
-                                    window.location.replace("templates/review.html");
+                                    window.location.replace("Resturant-website/templates/review.html");
                                     remove(ref(db,"/tabel-booking-available-no/"+phone));
                                 })
 
@@ -69,7 +69,7 @@ function setcolors(phone, id, otp){
                         };
 
                         con_btn.onclick = function(){
-                            window.location.replace("/templates/menu.html?seatid="+seat_id+"&ph="+phone);
+                            window.location.replace("Resturant-website/templates/menu.html?seatid="+seat_id+"&ph="+phone);
                         }
 
 
