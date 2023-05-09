@@ -1,0 +1,146 @@
+.seates {
+  padding: 30px;
+  margin-bottom: 0px;
+  background-color: #1d1d23;
+}
+h1 {
+  color: #e58f00;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.single-up {
+  list-style-type: none;
+  background-color: rgb(87, 87, 254);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: wheat;
+}
+
+.six-seat .single-up:hover {
+  transform: scale(1.1);
+}
+
+.four-seat .single-up:hover {
+  transform: scale(1.1);
+}
+
+.single-up:hover {
+  background-color: rgba(220, 220, 237, 0.6);
+  transform: translateY(20px);
+}
+
+.upsingle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cont-2 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.six-seat {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.six-seat .single-up {
+  margin: 20px;
+  height: 300px;
+  width: 130px;
+  padding-top: 140px;
+}
+
+.four-seat {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.four-1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.four-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.four-seat .single-up {
+  margin: 20px;
+  height: 150px;
+  width: 150px;
+  padding-top: 70px;
+}
+
+.downsingle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.downsingle .single-up {
+  border-radius: 50px;
+}
+
+@media (max-width: 1000px) {
+  .single-up {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .six-seat .single-up {
+    margin: 20px;
+    height: 150px;
+    width: 60px;
+    padding-top: 70px;
+  }
+
+  .four-seat .single-up {
+    margin: 20px;
+    height: 75px;
+    width: 75px;
+    padding-top: 35px;
+  }
+}
+@media (max-width: 767px) {
+  .seates {
+    padding: 10px;
+  }
+  .single-up {
+    font-size: 0.7rem;
+    padding: 5px;
+    margin-left: 5px;
+  }
+
+  .six-seat {
+    padding: 10px;
+  }
+
+  .cont-2 {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .six-seat .single-up {
+    margin: 20px;
+    height: 100px;
+    width: 130px;
+    padding-top: 50px;
+  }
+
+  li {
+    margin: 0px;
+  }
+}

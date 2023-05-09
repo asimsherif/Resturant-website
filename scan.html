@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="scan.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="form">
+                <h2>Verify your Seats</h2>
+                <div class="inputBox">
+                    <input id = 'phone' type="tel" required="required">
+                    <span>Phone No</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input id="seatid" type="tel" required="required">
+                    <span>Seat Id</span>
+                    <i></i>
+                </div>
+                <div class="inputBox">
+                    <input id = 'otp' type="tel" required="required">
+                    <span>OTP</span>
+                    <i></i>
+                </div>
+                <input id="submit" type="submit" value="Verify">
+                <div class="res" id = 'res'></div>
+                <div class="btns">
+                    <button id ='continue'>Continue</button>
+                    <button id ='cancel'>Cancel</button>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="scan.js"></script>
+    </body>
+</html>
